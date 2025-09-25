@@ -8,7 +8,9 @@ int main()
     int r = 5;
 
 
-    int area = 3.14 * r;
+    int area = 3.14 * r**2;
+
+    int cir = 2 * 3.14 * r 
 
     printf("Area is : %d \n" , area);
 
