@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+//QAssign explicit values starting from 10 and print them.
+
+
+enum Status {
+    A = 10,
+    B = 11,
+    C = 12,
+};
+
+int main() {
+
+    printf("A = %d\n", A);
+    printf("B = %d\n", B);
+    printf("C = %d\n", C);
+
+    return 0;
+}
